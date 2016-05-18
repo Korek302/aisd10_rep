@@ -32,8 +32,8 @@ public class Test
 		System.out.println("BFS: ");
 		g.BFS(a);
 		System.out.println();
-		System.out.println("algorytm Kruskala: \n"+g.kruskal());
-		System.out.println("algorytm Dijkstry: ");
+		System.out.println("Kruskala algorithm: \n"+g.kruskal());
+		System.out.println("Dijkstry algorithm: ");
 		g.dijkstra(a, e);
 	}
 }
